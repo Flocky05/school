@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import img from "../../assets/images/logo/logo.png"
 const Navbar = () => {
     return (
-        <div className="">
+        <div className="flex justify-between p-4 bg-orange-300 text-blue">
             <div>
-                <Link to="/"><img src={img} alt="" /></Link>
+                <Link to="/"><img className="w-10" src={img} alt="" /></Link>
             </div>
-            <div>
+            <div className="grid grid-cols-7 gap-4 text-xl">
                 <Link to="/">Home</Link>
                 <Link to="/who">Who We are?</Link>
                 <Link to="/admission">Admission</Link>
