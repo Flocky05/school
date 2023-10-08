@@ -1,5 +1,6 @@
 
 import img from "../../assets/images/Header/hero.jpg"
+import Computer from "../Computer/Computer";
 import Security from "../Security/Security";
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
                 <p className="text-center text-lg">Bhuapur Pilot Hight School is an ducational establishment that is located at Bhuapur,Tangail. Its Educational Institute Identification Number or EIIN, is 114019. On 20 January,1941, it was first put into operation. The alternative name for Bhuapur Pilot Hight School. It is a Combined sort of co-educational program. The institution provides education in the following fields: Business Studies, Science, Humanities.</p>
             </div>
             <Security></Security>
+            <Computer></Computer>
         </div>
     );
 };
