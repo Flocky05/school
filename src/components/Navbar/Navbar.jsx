@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import img from "../../assets/images/logo/logo.png"
 const Navbar = () => {
     return (
-        <div>
+        <div className="">
             <div>
                 <Link to="/"><img src={img} alt="" /></Link>
             </div>
@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Link to="/careers">Careers</Link>
                 <Link to="/school-policies">School  Policies</Link>
                 <Link to="/infrastructure">Infrastructure</Link>
-                <Link to="/infrastructure">Infrastructure</Link>
+                <Link to="/registation">Registation</Link>
 
             </div>
         </div>
