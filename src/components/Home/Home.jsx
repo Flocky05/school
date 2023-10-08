@@ -1,6 +1,7 @@
 
 import img from "../../assets/images/Header/hero.jpg"
 import Computer from "../Computer/Computer";
+import Nurturing from "../Nurturing/Nurturing";
 import Security from "../Security/Security";
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             </div>
             <Security></Security>
             <Computer></Computer>
+            <Nurturing></Nurturing>
         </div>
     );
 };
