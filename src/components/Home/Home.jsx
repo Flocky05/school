@@ -1,6 +1,7 @@
 
 import img from "../../assets/images/Header/hero.jpg"
 import Computer from "../Computer/Computer";
+import CountryCampus from "../CountryCampus/CountryCampus";
 import FeeStructure from "../Fee Structure/FeeStructure";
 import Nurturing from "../Nurturing/Nurturing";
 import Security from "../Security/Security";
@@ -16,6 +17,7 @@ const Home = () => {
             <Computer></Computer>
             <Nurturing></Nurturing>
             <FeeStructure></FeeStructure>
+            <CountryCampus></CountryCampus>
         </div>
     );
 };
