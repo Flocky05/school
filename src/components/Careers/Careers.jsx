@@ -31,13 +31,62 @@ const Careers = () => {
     return (
         <div>
             <Carousel responsive={responsive}>
-                <div><img className="w-full object-cover" src={img1} alt="" /></div>
-                <div><img className="w-full object-cover" src={img2} alt="" /></div>
-                <div><img className="w-full object-cover" src={img3} alt="" /></div>
-                <div><img className="w-full object-cover" src={img4} alt="" /></div> 
-                <div><img className="w-full object-cover" src={img5} alt="" /></div> 
-                <div><img className="w-full object-cover" src={img6} alt="" /></div> 
-                <div><img className="w-full object-cover" src={img7} alt="" /></div> 
+                <div>
+                    <img className="w-full object-cover" src={img1} alt="" />
+                    <div className="p-4">
+                        <h2 className="text-2xl font-bold ">Career Session</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, molestiae soluta eius harum laudantium deserunt aliquam hic. Nemo ipsam in voluptas autem magni inventore repellendus, officia vitae nam aliquam eum!</p>
+                        <button className="px-7 py-2 bg-fuchsia-900 text-white rounded-lg mt-5">Learn More</button>
+                    </div>
+                </div>
+                <div>
+                    <img className="w-full object-cover" src={img2} alt="" />
+                    <div className="p-4">
+                        <h2 className="text-2xl font-bold ">Career Session</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, molestiae soluta eius harum laudantium deserunt aliquam hic. Nemo ipsam in voluptas autem magni inventore repellendus, officia vitae nam aliquam eum!</p>
+                        <button className="px-7 py-2 bg-fuchsia-900 text-white rounded-lg mt-5">Learn More</button>
+                    </div>
+                </div>
+                <div>
+                    <img className="w-full object-cover" src={img3} alt="" />
+                    <div className="p-4">
+                        <h2 className="text-2xl font-bold ">Career Session</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, molestiae soluta eius harum laudantium deserunt aliquam hic. Nemo ipsam in voluptas autem magni inventore repellendus, officia vitae nam aliquam eum!</p>
+                        <button className="px-7 py-2 bg-fuchsia-900 text-white rounded-lg mt-5">Learn More</button>
+                    </div>
+                </div>
+                <div>
+                    <img className="w-full object-cover" src={img4} alt="" />
+                    <div className="p-4">
+                        <h2 className="text-2xl font-bold ">Career Session</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, molestiae soluta eius harum laudantium deserunt aliquam hic. Nemo ipsam in voluptas autem magni inventore repellendus, officia vitae nam aliquam eum!</p>
+                        <button className="px-7 py-2 bg-fuchsia-900 text-white rounded-lg mt-5">Learn More</button>
+                    </div>
+                </div> 
+                <div>
+                    <img className="w-full object-cover" src={img5} alt="" />
+                   <div className="p-4">
+                        <h2 className="text-2xl font-bold ">Career Session</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, molestiae soluta eius harum laudantium deserunt aliquam hic. Nemo ipsam in voluptas autem magni inventore repellendus, officia vitae nam aliquam eum!</p>
+                        <button className="px-7 py-2 bg-fuchsia-900 text-white rounded-lg mt-5">Learn More</button>
+                   </div>
+                </div> 
+                <div>
+                    <img className="w-full object-cover" src={img6} alt="" />
+                    <div className="p-4">
+                        <h2 className="text-2xl font-bold ">Career Session</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, molestiae soluta eius harum laudantium deserunt aliquam hic. Nemo ipsam in voluptas autem magni inventore repellendus, officia vitae nam aliquam eum!</p>
+                        <button className="px-7 py-2 bg-fuchsia-900 text-white rounded-lg mt-5">Learn More</button>
+                    </div>
+                </div> 
+                <div>
+                    <img className="w-full object-cover" src={img7} alt="" />
+                    <div className="p-4">
+                        <h2 className="text-2xl font-bold ">Career Session</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, molestiae soluta eius harum laudantium deserunt aliquam hic. Nemo ipsam in voluptas autem magni inventore repellendus, officia vitae nam aliquam eum!</p>
+                        <button className="px-7 py-2 bg-fuchsia-900 text-white rounded-lg mt-5">Learn More</button>
+                    </div>
+                </div> 
             </Carousel>;
         </div>
     );
